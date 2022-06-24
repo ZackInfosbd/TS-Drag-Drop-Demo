@@ -10,6 +10,17 @@ body {
   margin: 0;
 }
 
+.form-container {
+  padding: 0.5rem;
+}
+
+.form-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 750px;
+}
+
 label,
 input,
 textarea {
